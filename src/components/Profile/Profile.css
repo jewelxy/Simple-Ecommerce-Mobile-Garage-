@@ -1,0 +1,33 @@
+.user__card {
+    text-align: center;
+    max-width: 350px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .05);
+}
+
+.user__img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.user__name {
+    font-size: 22px;
+    color: #0e153a;
+    font-family: 'Poppins', sans-serif;
+}
+
+.user__email {
+    font-family: 'Roboto', sans-serif;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.profile .btn {
+    border-radius: 50px;
+}

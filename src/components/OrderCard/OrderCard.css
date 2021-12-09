@@ -1,0 +1,50 @@
+.order__card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 60px 1fr 70px 70px 35px;
+    align-items: center;
+    grid-gap: 10px;
+}
+
+.order__img--box {
+    width: 60px;
+    height: 60px;
+}
+
+.order__card h2 {
+    font-size: 16px;
+}
+
+.order__card .order__delete {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 490px) {
+    .order__card {
+        padding: 10px;
+        grid-template-columns: 55px 1fr 65px 65px 30px;
+        grid-gap: 5px;
+    }
+    .order__img--box {
+        width: 55px;
+        height: 55px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .order__card {
+        grid-template-columns: 55px 65px 65px 30px;
+        justify-content: space-between;
+    }
+    .order__name {
+        display: none;
+    }
+    .order__card h2 {
+        font-size: 14px;
+    }
+}

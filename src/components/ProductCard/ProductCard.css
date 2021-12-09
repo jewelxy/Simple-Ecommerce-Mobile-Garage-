@@ -1,0 +1,36 @@
+.product__card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+.product__img--box {
+    background: #F2F7FB;
+    padding: 20px;
+    border-radius: 10px;
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+.product__name {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.product__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product__price {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .product__img--box {
+        height: 280px;
+    }
+}

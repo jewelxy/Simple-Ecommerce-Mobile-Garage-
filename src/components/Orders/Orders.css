@@ -1,0 +1,36 @@
+.order {
+    padding: 40px 0;
+}
+
+.order__title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.order__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.order__message {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.order__message a {
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 940px) {
+    .order__content {
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .order__title {
+        font-size: 25px;
+    }
+}
